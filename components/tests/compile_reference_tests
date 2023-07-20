@@ -1,0 +1,44 @@
+#!/bin/sh
+gcc -o add add.c
+gcc -o mul mul.c
+gcc -o div div.c
+gcc -o single_max single_max.c -lm
+gcc -o single_min single_min.c -lm
+gcc -o gt gt.c
+gcc -o lt lt.c
+gcc -o le le.c
+gcc -o ge ge.c
+gcc -o eq eq.c
+gcc -o ne ne.c
+gcc -o single_to_int single_to_int.c
+gcc -o single_to_unsigned_int single_to_unsigned_int.c
+gcc -o int_to_single int_to_single.c
+gcc -o unsigned_int_to_single unsigned_int_to_single.c
+gcc -o sqrt sqrt.c -lm
+gcc -o abs abs.c -lm
+gcc -o neg neg.c -lm
+gcc -o trunc trunc.c -lm
+gcc -o ceil ceil.c -lm
+gcc -o floor floor.c -lm
+
+gcc -o double_mul double_mul.c
+gcc -o double_div double_div.c
+gcc -o double_add double_add.c
+gcc -o double_max double_max.c -lm
+gcc -o double_min double_min.c -lm
+gcc -o double_gt double_gt.c
+gcc -o double_lt double_lt.c
+gcc -o double_ge double_ge.c
+gcc -o double_le double_le.c
+gcc -o double_eq double_eq.c
+gcc -o double_ne double_ne.c
+gcc -o double_sqrt double_sqrt.c -lm
+gcc -o double_abs double_abs.c -lm
+gcc -o double_neg double_neg.c -lm
+gcc -o double_to_int double_to_int.c
+gcc -o double_to_unsigned_int double_to_unsigned_int.c
+gcc -o int_to_double int_to_double.c
+gcc -o unsigned_int_to_double unsigned_int_to_double.c
+gcc -o double_trunc double_trunc.c -lm
+gcc -o double_ceil double_ceil.c -lm
+gcc -o double_floor double_floor.c -lm
