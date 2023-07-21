@@ -24,8 +24,6 @@ Here is a list of functionalities in Sigmathlog:
 
 go to `components` folder and include the function file you want to use, for instance you can indlude `abs.v` or you can include files with `_tb` in their name as well like `abs_tb.v` to use `abs` function in your code.
 
-#### abs
-
 ### Testing
 
 Before running the framework, you should run the tests:
